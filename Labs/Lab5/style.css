@@ -1,0 +1,41 @@
+body{
+    background-image:url(media/space.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    
+    body{
+      text-align: center;
+    }
+    h1{
+      font-style:normal;
+      font-family:fantasy;
+      color:inherit;
+      text-align: center;
+    }
+    table {
+      background-color: white;
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    table, th, td{
+      border: 3px double black;
+      height: 40px;
+      text-align:center;
+    }
+    
+    img {
+      height: 10%;
+      width: 10%;
+    }
+    
+    img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+    
+    footer{
+       text-shadow: 2px 2px 4px #000000;
+    }
