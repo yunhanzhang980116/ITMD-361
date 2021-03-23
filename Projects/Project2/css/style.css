@@ -8,9 +8,9 @@ body {
 	color: black;
 }
 img {
-	max-width:100%;
+	max-width:auto;
    	height:auto;
-   	max-height:100%;
+   	max-height:auto;
 }
 h1 {
 	text-align: center;
