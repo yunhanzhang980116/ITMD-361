@@ -5,7 +5,7 @@ function init(){
         
         document.getElementById("entrybutton").addEventListener("click", function() 
             {
-                var tOutput = "Yanlin Chen: " + document.getElementById('entryinput').value;
+                var tOutput = "Yunhan Zhang: " + document.getElementById('entryinput').value;
                 alert(tOutput);
                 document.getElementById("textoutput").innerHTML = document.getElementById('entryinput').value;
               });
