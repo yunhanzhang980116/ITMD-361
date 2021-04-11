@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 6 - Basic JavaScript Event Handling and DOM</title>
+	<style>
+		.center {
+			text-align: center;
+		}
+		#container {
+			width: 400px;
+			margin: 50px auto 0;
+		}
+		#entryinput {
+			width: 100%;
+		}
+		#entrybutton {
+			width: 200px;
+			text-align: center;
+			color: #fff;
+			background-color: #c00;
+			padding: 2em 0;
+			margin: 20px auto;
+			font-size: 24px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="center">ITMD-361- Lab 6 - Basic JavaScript Event Handling and DOM</h1>
+	<h2 class="center">Yunhan Zhang</h2>
+	<h3 class="center">yzhang121@hawk.iit.edu</h3>
+	<div id="container">
+		<input id="entryinput" type="text" name="textentry" placeholder="Enter a Message">
+		<div id="entrybutton">Alert Me</div>
+		<h2 id="textoutput" class="center">Show Results Here</h2>
+	</div>
+	<script>  /*JavaScript goes here*/
+		document.getElementById("entrybutton").addEventListener("click",function() {
+
+      var txt = document.getElementById("entryinput").value;
+
+			alert("Yunhan Zhang: "+txt);
+
+			document.getElementById("textoutput").innerHTML=txt;
+		})
+	</script>
+</body>
+</html>
