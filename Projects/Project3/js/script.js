@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    $('.slider').bxSlider({
+      captions: true
+    });
+  });
+
 var map;
   
 function initMap() {

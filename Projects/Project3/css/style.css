@@ -103,108 +103,13 @@ ul li {
 	padding: 10px;
 	position: relative; 
 }
-#ca_content{
-	background-color: rgb(175, 255, 255);
-	margin: 0 auto;
-	width: 95%;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-  }
-  
-  .slider{
+.slider{
 	background-color: black;
   }
   
-  .slider img {
+.slider img {
 	margin: 0 auto;
 	max-width: 100%;
 	overflow:hidden;
 	vertical-align: middle;
-  }
-  
-  .bx-wrapper {
-	-moz-box-shadow: 0 0 5px rgb(0, 0, 0);
-	-webkit-box-shadow: 0 0 5px rgb(0, 0, 0);
-	box-shadow: 0 0 5px #ccc;
-	border: 5px solid rgb(0, 0, 0);
-	background: rgb(0, 0, 0);
-  }
-  
-  iframe{
-	width: 75%;
-  }
-  
-  #canada{
-	background-color: lightcyan;
-	color:black;
-	text-align: center;
-  }
-  
-  h1{
-	font-size: 100px;
-	padding: 20px 20px 20px 20px;
-	}
-  
-  #canada h2{
-	text-decoration: underline;
-	font-weight: bold;
-  }
-  
-  .title{
-	padding: 10px 10px 10px 10px;
-  }
-  
-  @media screen and (min-width: 500px){
-	#ca_content{
-	  width: 90%;
-	  margin: 0% auto;
-	  text-align: center;
-	  padding-left: 5%;
-	  padding-right: 5%;
-	  
-	}
-	#ca_content p{
-	  padding-bottom: 5%;
-	  font-size: 20px;
-	}
-  
-	#ca_content h2{
-	  padding-bottom: 5%;
-	  font-size: 25px;
-	}
-  
-  }
-  
-  @media screen and (min-width: 750px){
-	iframe{
-	  width: 75%;
-	}
-  
-	#ca_content{
-	  width: 75%;
-	  box-shadow: 10px 10px rgb(87, 87, 87);
-	  margin-top: 5%;
-	  border: 3px solid black;
-	  margin: 1% auto;
-	  text-align: center;
-	}
-  
-	#ca_content p{
-	  padding-bottom: 2.5%;
-	  font-size: 17px;
-	}
-  
-	#ca_content h2{
-	  padding-bottom: 2.5%;
-	  font-size: 20px;
-	}
-  }
-  
-  @media screen and (min-width: 1305px) {
-	iframe{
-	  width:100%;
-	}
-	#ca_content{
-	  width: 45%;
-	}
   }
