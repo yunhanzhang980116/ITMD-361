@@ -8,7 +8,7 @@ $(document).ready(function(){
   
   function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 31.143802947049814, lng: 121.65778601702799 },
+    center: { lat: 31.143802947049814, lng: -121.65778601702799 },
     zoom: 20,
     });
   
@@ -18,7 +18,7 @@ $(document).ready(function(){
     };
       
     const beachMarker = new google.maps.Marker({
-      position: { lat: 31.143802947049814, lng: 121.65778601702799 },
+      position: { lat: 31.143802947049814, lng: -121.65778601702799 },
       map,
       icon: image,
       title: "Shanghai Disney Land",
