@@ -1,0 +1,79 @@
+html {
+	background-color: rgb(255, 255, 255);
+}
+body {
+	text-align: center;
+	font-family: "Apple Chancery", cursive;
+	text-align: center;
+	color: black;
+}
+img {
+	height: 500px;
+	width: 600px;
+}
+h1 {
+	text-align: center;
+	font-family: "Apple Chancery", cursive;
+	font-size: 4em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+}
+h2 {
+	text-align: center;
+	font-family: "Apple Chancery", cursive;
+	font-size: 3em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+h3 {
+	text-align: center;
+	font-family: "Apple Chancery", cursive;
+	font-size: 2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+}
+p {
+	text-align: center;
+	font-family: "Apple Chancery", cursive;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 1.5em;
+}
+ul li {
+	font-family: "Apple Chancery", cursive;
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+        overflow: hidden;
+}
+#header ul {
+    	list-style-type: none;
+   	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #333;
+    	text-align: center;
+
+}
+#header li {
+	display: inline-block;
+}
+#header li a {
+	display: inline-block;
+    	color: rgb(255, 255, 255);
+    	text-align: center;
+    	padding: 1em;
+    	text-decoration: none;
+}
+#header li a:hover {
+    	background-color: #d87878;
+}
+.active {
+	background-color: #d87878;
+	color:gray;
+}
