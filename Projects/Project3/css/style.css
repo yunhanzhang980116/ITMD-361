@@ -19,32 +19,6 @@ h1 {
 	font-variant: normal;
 	font-weight: 600;
 }
-#map {
-    margin: 0 auto;
-    height: 600px;
-    width: 100%;
-}
-
-.center {
-    text-align: center;
-}
-
-.googleMapsInfo {
-    color: black;
-    width: 320px;
-}
-
-.googleMapsInfo h1 {
-    margin: 0.5em;
-    margin-left: 0;
-}
-#main {
-	width: 800px;
-	height: auto;
-	margin: 10px auto;
-	padding: 10px;
-	position: relative; 
-}
 h2 {
 	text-align: center;
 	font-family: "Apple Chancery", cursive;
@@ -103,3 +77,47 @@ ul li {
 	background-color: #d87878;
 	color:gray;
 }
+#map {
+    margin: 0 auto;
+    height: 600px;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.googleMapsInfo {
+    color: black;
+    width: 320px;
+}
+
+.googleMapsInfo h1 {
+    margin: 0.5em;
+    margin-left: 0;
+}
+#main {
+	width: 800px;
+	height: auto;
+	margin: 10px auto;
+	padding: 10px;
+	position: relative; 
+}
+.slider{
+	background-color: black;
+  }
+  
+  .slider img {
+	margin: 0 auto;
+	max-width: 100%;
+	overflow:hidden;
+	vertical-align: middle;
+  }
+  
+  .bx-wrapper {
+	-moz-box-shadow: 0 0 5px rgb(0, 0, 0);
+	-webkit-box-shadow: 0 0 5px rgb(0, 0, 0);
+	box-shadow: 0 0 5px #ccc;
+	border: 5px solid rgb(0, 0, 0);
+	background: rgb(0, 0, 0);
+  }
