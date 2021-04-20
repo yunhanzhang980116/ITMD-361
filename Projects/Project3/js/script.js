@@ -1,12 +1,6 @@
-$(document).ready(function(){
-    $('.slider').bxSlider({
-      captions: true
-    });
-  });
+var map;
   
-  var map;
-  
-  function initMap() {
+function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 31.143802947049814, lng: -121.65778601702799 },
     zoom: 20,
