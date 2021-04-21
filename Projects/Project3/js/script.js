@@ -5,7 +5,6 @@ $(document).ready(function(){
   });
 
 var map;
-  
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 31.143802947049814, lng: 121.65778601702799 },
