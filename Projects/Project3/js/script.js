@@ -20,7 +20,7 @@ function initMap() {
       position: { lat: 31.233615556740542, lng: 121.50518352919603 },
       map,
       icon: image,
-      title: "Shanghai Lujiazui Financial District",
+      title: "Shanghai Tower",
     });
   
     const content = '<div><h1>Shanghai Tower</h1><p>Shanghai Tower is a 128-story, 632-meter (2,073 ft)-tall megatall skyscraper in Lujiazui, Pudong, Shanghai.</p><footer>More information can be found at <a href="https://en.wikipedia.org/wiki/Shanghai_Tower">https://en.wikipedia.org/wiki/Shanghai_Tower</a></footer></div>';
