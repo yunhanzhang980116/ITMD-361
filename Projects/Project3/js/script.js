@@ -7,23 +7,23 @@ $(document).ready(function(){
 var map;
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 31.143802947049814, lng: 121.65778601702799 },
+    center: { lat: 31.236210751446855, lng: 121.50935901943585 },
     zoom: 20,
     });
   
     const image = {
-        url: "images/disney.jpg",
+        url: "images/Tower.jpg",
         scaledSize : new google.maps.Size(50,50)
     };
       
     const beachMarker = new google.maps.Marker({
-      position: { lat: 31.143802947049814, lng: 121.65778601702799 },
+      position: { lat: 31.233615556740542, lng: 121.50518352919603 },
       map,
       icon: image,
-      title: "Shanghai Disney Land",
+      title: "Shanghai Lujiazui Financial District",
     });
   
-    const content = '<div><h1>Shanghai Disney Land</h1><p>Shanghai Disneyland Park is a theme park located in Chuansha New Town, Pudong, Shanghai, China, that is part of the Shanghai Disney Resort. The park is operated by Disney Parks, Experiences and Products and Shanghai Shendi Group, through a joint venture between The Walt Disney Company and Shendi.</p><footer>More information can be found at <a href="https://en.wikipedia.org/wiki/Shanghai_Disneyland_Park">https://en.wikipedia.org/wiki/Shanghai_Disneyland_Park</a></footer></div>';
+    const content = '<div><h1>Shanghai Tower</h1><p>Shanghai Tower is a 128-story, 632-meter (2,073 ft)-tall megatall skyscraper in Lujiazui, Pudong, Shanghai.</p><footer>More information can be found at <a href="https://en.wikipedia.org/wiki/Shanghai_Tower">https://en.wikipedia.org/wiki/Shanghai_Tower</a></footer></div>';
     const contentWindow = new google.maps.InfoWindow({
         content: content,
     })
