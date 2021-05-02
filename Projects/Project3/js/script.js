@@ -8,12 +8,12 @@ var map;
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 31.236210751446855, lng: 121.50935901943585 },
-    zoom: 20,
+    zoom: 5,
     });
   
     const image = {
         url: "images/Tower.jpg",
-        scaledSize : new google.maps.Size(50,50)
+        scaledSize : new google.maps.Size(20,20)
     };
       
     const beachMarker = new google.maps.Marker({
