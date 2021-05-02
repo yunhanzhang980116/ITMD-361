@@ -18,7 +18,7 @@ function initMap() {
     });
 
     const beachMarker2 = new google.maps.Marker({
-      position: { lat: 31.240272102137343, lng: 121.50087938662085 },
+      position: { lat: 31.239867740600612, lng: 121.49976066816042 },
       map,
       title: "Oriental Pearl TV Tower",
     });
