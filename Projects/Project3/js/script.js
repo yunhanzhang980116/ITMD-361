@@ -19,7 +19,6 @@ function initMap() {
     const beachMarker = new google.maps.Marker({
       position: { lat: 31.233615556740542, lng: 121.50518352919603 },
       map,
-      icon: image,
       title: "Shanghai Tower",
     });
   
@@ -30,6 +29,5 @@ function initMap() {
   
     beachMarker.addListener("click", () => {
         contentWindow.open(map, beachMarker);
-        beachMarker.setAnimation(google.maps.Animation.BOUNCE);
     })
   }
